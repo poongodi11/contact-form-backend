@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // ✅ Connect to MongoDB Atlas
-mongoose.connect('mongodb+srv://poongodi11022001:Poongodi%402001@cluster0.oeyunem.mongodb.net/contactFormDB?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('mongodb+srv://<Your_Username>:<Your_Password>@cluster0.oeyunem.mongodb.net/contactFormDB?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
